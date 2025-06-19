@@ -1,0 +1,84 @@
+html {
+    margin: 60px 150px 100px 150px;
+    font-size: 16px;
+    background-color: #8DAD88;
+}
+
+header {
+    padding-bottom: 40px;
+}
+
+header .p1 {
+    position: absolute; 
+    left: 0; 
+    margin-left: 150px;
+}
+
+header .p2 {
+    position: absolute; 
+    right: 0; 
+    margin-right: 225px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.roscoe .forest img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.roscoe .quote img {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.roscoe h3 {
+    font-size: 50px;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
+.mia .getaway {
+    background-color: #37582B;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+}
+
+.mia .getaway p {
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+.mia .retreat {
+    padding: 15px 80px 20px 15px;
+}
+
+.mia .retreat p {
+    font-size: 0.89vw;
+    font-weight: 200;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.mia .retreat h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+footer .p1 {
+    position: absolute;
+    left: 0;
+    margin-left: 150px;
+}
+
+footer .p2 {
+    position: absolute;
+    right: 0;
+    margin-right: 180px;
+}

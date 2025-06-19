@@ -1,0 +1,62 @@
+body {
+  font-family: Georgia, serif;
+  margin: 4rem auto;
+  max-width: 900px;
+  padding: 0 2rem;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.main-content {
+  column-count: 2;
+  column-gap: 3rem;
+}
+
+.title-area {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.title-area h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.intro-area {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+}
+
+.intro-area p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.text-body h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+  break-inside: avoid;
+}
+
+.text-body p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  break-inside: avoid;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    column-count: 1;
+  }
+}

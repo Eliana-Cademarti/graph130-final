@@ -1,41 +1,35 @@
-@media (max-width: 480px) {
-    body {
-        font-size: 16px;
-        padding: 0 1rem;
-    }
+@media (max-width: 600px) {
+  .roscoe {
+    display: grid;
+    grid-auto-flow: column;         
+    grid-auto-columns: 80%;         
+    overflow-x: auto;               
+    gap: 1rem;
+    padding: 0.5rem;
+  }
 
-    .title {
-        padding: 0 1rem;
-    }
+  .roscoe > * {
+    min-width: 250px;               
+    padding: 0.5rem;
+  }
 
-    .title h1 {
-        font-size: 1.5rem;
-    }
+  .right {
+    background-color: #2b5d8c;
+    color: #fff;
+    border-radius: 0.5rem;
+  }
 
-    .title h2 {
-        font-size: 1rem;
-    }
+  .right p:first-of-type::first-letter {
+    font-size: 2rem;
+    float: left;
+    padding-right: 0.2rem;
+  }
 
-    .roscoe {
-        padding: 1rem;
-        gap: 1rem;
-    }
+  .roscoe::-webkit-scrollbar {
+    display: none;                 
+  }
 
-    .left, .middle, .right {
-        padding: 0;
-        min-width: auto;
-    }
-
-    .right {
-        border-radius: 0;
-        padding: 1rem 0.8rem;
-    }
-
-    .right p:first-of-type::first-letter {
-        font-size: 2.5rem;
-    }
-
-    footer {
-        margin-top: 1rem;
-    }
+  .roscoe {
+    scrollbar-width: none;        
+  }
 }

@@ -1,0 +1,64 @@
+body {
+  font-family: Georgia, serif;
+  margin: 4rem auto;
+  max-width: 900px;
+  padding: 0 2rem;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.main-content {
+  column-count: 2;
+  column-gap: 3rem;
+}
+
+.title-area h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.intro-area p,
+.text-body p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.text-body h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover {
+  background-color: #333;
+  color: #fff;
+}

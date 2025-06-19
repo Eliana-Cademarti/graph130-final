@@ -1,0 +1,51 @@
+html {
+    margin: 10px;
+    font-size: 14px;
+    background-color: #8DAD88;
+}
+
+header .p1, header .p2,
+footer .p1, footer .p2 {
+    position: static;
+    margin: 0;
+    text-align: center;
+}
+
+.mia .getaway, .mia .retreat {
+    padding: 10px;
+}
+
+.mia .getaway {
+    background-color: #37582B;
+    color: white;
+}
+
+.mia .getaway p, .mia .retreat p {
+    font-size: 16px;
+}
+
+.mia .retreat h1 {
+    font-size: 26px;
+}
+
+.roscoe {
+    display: flex;
+    flex-direction: column;
+}
+
+.roscoe .forest img {
+    width: 100%;
+    height: auto;
+}
+
+.roscoe .quote img {
+    width: 80%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.roscoe h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
