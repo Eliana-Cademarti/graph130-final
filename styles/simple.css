@@ -1,11 +1,104 @@
-@charset "UTF-8";
-
-html {
-    box-sizing:border-box;
-    margin:0px;
-    padding:0px;
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
 }
 
+/* Header */
+header {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+    margin: 1rem 0;
+}
 
+/* Title Section */
+.title {
+    padding: 0 2rem;
+}
 
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.title h2 {
+    font-size: 1.1rem;
+    color: #2e8b57; /* greenish text for subtitle */
+    font-weight: normal;
+}
+
+/* 3-Column Main Layout using Flex */
+.roscoe {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.left, .middle, .right {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Left Column */
+.left h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.left img {
+    max-width: 100%;
+    margin-top: auto;
+    border-radius: 4px;
+}
+
+/* Middle Column */
+.middle {
+    padding: 0 0.5rem;
+}
+
+/* Right Column (Blue Box) */
+.right {
+    background-color: #2b5c88;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.right img {
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.right p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    margin: 2rem 0 1rem;
+}
+
+/* Responsive: Stack Columns Vertically on Narrow Screens */
+@media (max-width: 900px) {
+    .roscoe {
+        flex-direction: column;
+    }
+}
 

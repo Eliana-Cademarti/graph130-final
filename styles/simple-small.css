@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+        padding: 0 1rem;
+    }
+
+    .title {
+        padding: 0 1rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .title h2 {
+        font-size: 1rem;
+    }
+
+    .roscoe {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .left, .middle, .right {
+        padding: 0;
+        min-width: auto;
+    }
+
+    .right {
+        border-radius: 0;
+        padding: 1rem 0.8rem;
+    }
+
+    .right p:first-of-type::first-letter {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
+}

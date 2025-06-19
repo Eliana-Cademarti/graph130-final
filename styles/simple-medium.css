@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+    .roscoe {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .left, .middle, .right {
+        padding: 0;
+        min-width: 100%;
+    }
+}
