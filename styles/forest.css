@@ -1,0 +1,101 @@
+@charset "UTF-8";
+html {
+    box-sizing:border-box;
+    font-size: 16px;
+    background-color:#8DAD88;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:60px;
+    margin-bottom:100px;
+}
+header {
+    box-sizing:border-box;
+    padding-bottom:40px;
+}
+header .p1 {
+  position: absolute; 
+  left: 0; 
+  margin-left:150px;
+}
+
+header .p2 {
+  position: absolute; 
+  right: 0; 
+  margin-right:225px;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.roscoe .forest img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.roscoe .quote img {
+    width:500px;
+    height: auto;
+    margin:10px;
+}
+
+.roscoe h3 {
+    font-size:50px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:30px;
+    font-weight: 800;
+}
+
+.mia .getaway {
+    color:white;
+    box-sizing: border-box;
+    background-color:#37582B;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:justify;
+}
+
+.mia .getaway p {
+    font-size:1.2vw;
+    font-weight:200;
+}
+
+.mia .retreat {
+    box-sizing:border-box;
+    padding-left:15px;
+    padding-bottom:20px;
+    padding-right:80px;
+}
+
+.mia .retreat p {
+    font-size:0.89vw;
+    font-weight:200;
+    padding-bottom:20px;
+    text-align:justify;
+}
+
+.mia .retreat h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.mia .getaway h2 {
+    font-weight: 800;
+}
+
+footer .p1 {
+  position: absolute;
+  left: 0; 
+  margin-left:150px;
+}
+
+footer .p2 {
+  position: absolute; 
+  right: 0; 
+  margin-right:180px;
+}
